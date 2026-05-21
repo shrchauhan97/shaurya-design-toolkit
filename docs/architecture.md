@@ -37,6 +37,8 @@ The ask is to extract and package the **design-relevant subset** of Shaurya's se
 
 ## 3. Repository structure
 
+> The `skills/` tree below is the full v1.0 proposal. **v0.1 ships 6 bundled skills** (the subset with permissive licenses); the rest are linked from the README or deferred. See [`SKILL_DECISIONS.md`](./SKILL_DECISIONS.md) for the per-skill final state.
+
 ```
 shaurya-design-toolkit/                 GitHub repo, public, MIT licensed
 ├── README.md                           Four onboarding paths (see §5)
