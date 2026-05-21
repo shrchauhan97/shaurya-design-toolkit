@@ -45,13 +45,20 @@ You won't get the skills natively, but the patterns work anywhere:
 - `make-pdf` — markdown → publication-quality PDF
 - `heygen-skills` — HeyGen avatar videos
 
-**Prompts** (in [`prompts/`](./prompts/)) — 6 distilled system prompts for use anywhere:
+**Prompts** (in [`prompts/`](./prompts/)) — 8 distilled system prompts for use anywhere:
 - `deck-architect` — pitch decks, all-hands, customer-facing
 - `html-designer` — landing pages, microsites, hero sections
 - `brand-critic` — reviewing visual work against brand consistency
 - `visual-reviewer` — catching AI-slop patterns, spacing, hierarchy
 - `video-composer` — composition, transitions, captions, motion
 - `design-system-thinker` — color, type, spacing systems
+- `design-md-author` — generating a `DESIGN.md` file for AI coding agents *(v0.2)*
+- `html-deck-author` — authoring HTML/CSS decks using the Stella Decks pattern *(v0.2)*
+
+**Reference docs** (in [`docs/`](./docs/)):
+- [`docs/frameworks/stella-decks-pattern.md`](./docs/frameworks/stella-decks-pattern.md) — full architecture of the HTML/CSS deck pattern *(v0.2)*
+- [`docs/landscapes/ui-effects-libraries.md`](./docs/landscapes/ui-effects-libraries.md) — curated GitHub repos for 3D, liquid, gradient UI effects *(v0.2)*
+- [`docs/SKILL_DECISIONS.md`](./docs/SKILL_DECISIONS.md), [`docs/architecture.md`](./docs/architecture.md), [`docs/how-to-add-a-skill.md`](./docs/how-to-add-a-skill.md)
 
 ## Recommended companions (not bundled — install from Anthropic's marketplace)
 
@@ -67,9 +74,10 @@ See [`docs/how-to-add-a-skill.md`](./docs/how-to-add-a-skill.md).
 
 ## Roadmap
 
-- **v0.1** (current) — skills + prompts
-- **v0.2** — templates (deck shells, HTML starters, brand-kit reference)
-- **v0.3+** — community contributions, additional prompts
+- **v0.1** — skills + prompts (shipped)
+- **v0.2** (current) — DESIGN.md pattern, UI effects library, Stella Decks reference
+- **v0.3** — templates (deck shells, HTML starters, brand-kit reference)
+- **v0.4+** — community contributions, additional prompts
 
 ## License
 

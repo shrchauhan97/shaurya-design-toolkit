@@ -20,6 +20,8 @@ Standalone system prompts you can paste into any AI tool's "custom instructions"
 | `visual-reviewer.md` | Catching AI-slop patterns, spacing issues, hierarchy problems |
 | `video-composer.md` | Designing video compositions, transitions, captions, motion |
 | `design-system-thinker.md` | Building or evaluating design systems, color/type/spacing decisions |
+| `design-md-author.md` | Generating a `DESIGN.md` file that codifies a brand's design system for AI coding agents |
+| `html-deck-author.md` | Authoring HTML/CSS presentation decks using the Stella Decks three-file harness pattern |
 
 ## Adapting prompts
 
