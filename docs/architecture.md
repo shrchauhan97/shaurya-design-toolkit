@@ -7,6 +7,10 @@
 
 ---
 
+> **Editor's note (v0.1):** This document describes the full vision. The v0.1 release ships `skills/` and `prompts/` only — `templates/` is planned for v0.2 (see §3 and §5 for the templates spec, and the project roadmap in README.md). The toolkit's three-folder structure, marketplace integration, and onboarding paths are all live in v0.1.
+
+---
+
 ## 1. Purpose
 
 Package Shaurya's design-related Claude skills, system prompts, and ready-to-fork artifacts into a single public GitHub repo that works across **every AI tool Matt and Jamie might use** (Claude Code, Claude.ai, ChatGPT, Cursor) and is also useful to non-AI users who just want polished templates.
