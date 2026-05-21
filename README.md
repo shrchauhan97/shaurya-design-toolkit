@@ -10,7 +10,7 @@ Decks, HTML, video, brand — Shaurya's design stack, originally packaged for th
 
 ```bash
 # One-time setup
-claude plugin marketplace add github:shaurya/shaurya-design-toolkit
+claude plugin marketplace add github:shrchauhan97/shaurya-design-toolkit
 claude plugin install shaurya-design-toolkit
 
 # Try it
@@ -22,7 +22,7 @@ You now have access to all bundled skills natively in Claude Code. Browse [`skil
 ## Path 2 — I use Claude.ai
 
 1. Open claude.ai → Settings → Skills → Add skills
-2. Add marketplace URL: `github.com/shaurya/shaurya-design-toolkit`
+2. Add marketplace URL: `github.com/shrchauhan97/shaurya-design-toolkit`
 3. Browse and add the skills you want individually
 
 For system prompts: create a Claude Project, paste any file from [`prompts/`](./prompts/) into the project's custom instructions.
