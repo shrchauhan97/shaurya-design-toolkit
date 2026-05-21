@@ -1,0 +1,29 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case anything ships with node tooling later)
+node_modules/
+*.log
+
+# Local-only
+.env
+.env.local
+*.local
+
+# Python (in case any skill uses scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
