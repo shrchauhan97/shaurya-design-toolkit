@@ -1,0 +1,31 @@
+{
+  "name": "shaurya-design-toolkit",
+  "id": "shaurya-design-toolkit",
+  "owner": {
+    "name": "shrchauhan97"
+  },
+  "metadata": {
+    "description": "Decks, HTML, video, brand — design skills and system prompts for AI-assisted creative work.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "shaurya-design-toolkit",
+      "source": "./",
+      "description": "Decks, HTML, video, brand — design skills and system prompts for AI-assisted creative work.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Shaurya"
+      },
+      "keywords": [
+        "design",
+        "decks",
+        "html",
+        "video",
+        "brand",
+        "presentations"
+      ],
+      "category": "design"
+    }
+  ]
+}
