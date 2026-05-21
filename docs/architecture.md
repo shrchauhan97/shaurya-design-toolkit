@@ -22,11 +22,11 @@ The toolkit covers deck-making, HTML/landing-page design, brand systems, video c
 The ask is to extract and package the **design-relevant subset** of Shaurya's setup — skills, system prompts, ready-to-use artifacts. The Obsidian wiki vaults are not the artifact being shared; they're personal reference material on Shaurya's machine that we **draw from during curation** to identify which patterns, tool notes, and skills are worth packaging.
 
 ### Source material (lives on Shaurya's machine, not shipped)
-- All four Obsidian vaults — `evaa/`, `openrift/`, `techib/`, `personal/`
+- Personal Obsidian knowledge vaults (kept local)
 - Shaurya's accumulated patterns, workflows, and design preferences
 
 ### Explicit exclusions (skills that exist in Shaurya's setup but don't belong in this toolkit)
-- Custom EVAA skills (`evaa-nda`, `evaa-proposal`, `buglerock-*`) — business-specific
+- Business-specific custom skills (tied to private client and business work) — not for redistribution
 - Personal-account skills (`linkedin`, `notion:*`, `readwise:*`, `telegram:*`) — tied to Shaurya's accounts
 - Engineering/ops skills (`gstack`, `gstack-*`, `qa`, `babysit-pr`, `railway:*`, `vercel:*`, `supabase:*`, `sentry:*`) — not design
 - Domain-mismatched skills (`legal:*`, `small-business:*`)
@@ -54,7 +54,7 @@ shaurya-design-toolkit/                 GitHub repo, public, MIT licensed
 │   ├── heygen-skills/
 │   ├── make-pdf/
 │   ├── defuddle/
-│   ├── brand-guidelines/               (generic — not buglerock-brand-guidelines)
+│   ├── brand-guidelines/               (generic — not business-specific custom skills)
 │   ├── doc-coauthoring/
 │   ├── skill-creator/
 │   └── gsap/
@@ -119,7 +119,7 @@ The §3 skills list is the initial proposal — each skill is re-checked against
 
 ### Templates
 
-Concrete artifact counts for v0.1: 5 deck shells, 3 HTML starters, 1 brand-kit template, 3 HyperFrames examples. Sourced from Shaurya's existing work, scrubbed of EVAA/BugleRock branding before publication.
+Concrete artifact counts for v0.1: 5 deck shells, 3 HTML starters, 1 brand-kit template, 3 HyperFrames examples. Sourced from Shaurya's existing work, scrubbed of private client/business branding before publication.
 
 ## 5. README onboarding paths
 
@@ -192,11 +192,11 @@ open-sourced for anyone making things look good with AI assistance.
 ## 7. Privacy & hygiene (one-time launch pass)
 
 Before the v0.1 push to public GitHub, scrub everything bundled for:
-- Client names (BugleRock, Rocky, Verita, TechIB, MetaKitchen)
-- EVAA-specific branding, NDAs, proposal language
+- Client and business names (any private or named-client identifiers)
+- Personal-business-specific branding, NDA language, proposal templates
 - Personal handles, email addresses, internal URLs
 - API keys, tokens, credentials (defensive: even though none should exist)
-- References to Shaurya's private vaults, Notion IDs, Cortex memory IDs
+- References to Shaurya's private knowledge vaults, internal database IDs, memory system IDs
 
 This is a single review pass before v0.1, not ongoing work. Future skills authored cleanly from the start don't need re-scrubbing.
 
