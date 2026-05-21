@@ -1,0 +1,12 @@
+{
+  "name": "shaurya-design-toolkit",
+  "description": "Decks, HTML, video, brand — design skills and system prompts for AI-assisted creative work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Shaurya"
+  },
+  "homepage": "https://github.com/shaurya/shaurya-design-toolkit",
+  "repository": "https://github.com/shaurya/shaurya-design-toolkit",
+  "license": "MIT",
+  "keywords": ["design", "decks", "html", "video", "brand", "presentations"]
+}
